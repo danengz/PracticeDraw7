@@ -49,6 +49,7 @@ public class Practice02HsvEvaluatorLayout extends RelativeLayout {
     private class HsvEvaluator implements TypeEvaluator<Integer> {
 
         // 重写 evaluate() 方法，让颜色按照 HSV 来变化
+        //TODO 如有颜色处理需求参考sample目录下， 如想了解自定义TypeEvaluator参考Practice03OfObjectLayout中PointFEvaluator
         @Override
         public Integer evaluate(float fraction, Integer startValue, Integer endValue) {
             return startValue;
